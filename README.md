@@ -1,27 +1,31 @@
-# VideoGameDB
+<!-- PROJECT LOGO -->
+# Angular Video Game Data Base
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
+## Description
+This App loads data from an external API and enables the viewing of data points in detail.
+This App contains 500,000+ video games content right now, but can be used for other content as well.
 
-## Development server
+![AngularVGDB Showcase](img/Angular-VGDB.gif)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Key Features
+* Load data from an external source (RapidApi): [ terryl1971.github.io/MyPokedex-js-app ](https://terryl1971.github.io/MyPokedex-js-app/).
+* View a list of items, sorted alphabetically
+* user can search for a specific name
+* On user action (clicking on button with list item), details are shown in a modal
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech Stack
+* HTML
+* CSS
+* JavaScript
+* Bootstrap components (modal, grid, input search field)
+* External API (PokeAPI)
 
-## Build
+## Next Steps
+* Rebuild the project + connect to a different API 
+* depending on content there will be other filter and sorting functions
+* for wide screens the list will be displayed in a grid
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Hosted Project
+See hosted version of Pokemon App:
+[ terryl1971.github.io/MyPokedex-js-app ](https://terryl1971.github.io/MyPokedex-js-app/)
